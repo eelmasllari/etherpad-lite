@@ -10,7 +10,7 @@ fi
 LOCALDIR="$1"
 
 # from https://gist.github.com/isaacs/579814
-export PATH=$LOCALDIR:$PATH
+export PATH=$LOCALDIR/bin:$PATH
 sudo apt-get update
 sudo apt-get install build-essential curl
 mkdir "$LOCALDIR"
